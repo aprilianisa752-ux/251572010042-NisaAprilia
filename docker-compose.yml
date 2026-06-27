@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  web-profile:
+    image: nisaaprilia/web-profile:1.0
+    container_name: web-profile
+    ports:
+      - "8083:80"
